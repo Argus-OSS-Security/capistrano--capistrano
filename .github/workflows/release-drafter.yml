@@ -1,10 +1,11 @@
 name: Release Drafter
 
-on:
-  push:
-    branches:
-      - master
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+# 
 permissions:
   contents: write
   pull-requests: read
